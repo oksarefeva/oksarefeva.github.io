@@ -6,32 +6,23 @@
     <meta name="description" content="">
     <title>Главная</title>
     <link rel="stylesheet" href="./nicepage.css" media="screen">
-    <link rel="stylesheet" href="./index.css" media="screen">
+    <link rel="stylesheet" href="style.css" media="screen">
     <script class="u-script" type="text/javascript" src="./jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="./nicepage.js" defer=""></script>
     <script class="u-script" type="module" src="https://unpkg.com/i18next@23.0.1/i18next.min.js"></script>
-    <script type="text/javascript" src="indexProject.js" defer></script>
+    <script type="text/javascript" src="main.js" defer></script>
 
-    <meta name="generator" content="Nicepage 7.8.22, nicepage.com">
-
-    <link id="u-theme-google-font" rel="stylesheet" href="cssProject.css">
-    <script type="application/ld+json">{
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "",
-        "logo": ""
-    }</script>
+    <link id="u-theme-google-font" rel="stylesheet" href="fonts.css">
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Главная">
     <meta property="og:type" content="website">
     <meta data-intl-tel-input-cdn-path="intlTelInput/">
 </head>
 
-<body data-home-page="Главная.html" data-home-page-title="Главная" data-path-to-root="./" data-include-products="true" class="u-body u-xl-mode" data-lang="ru">
+<body data-home-page="home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="true" class="u-body u-xl-mode" data-lang="ru">
 
 
 <main>
-<header class="u-clearfix u-header u-header" id="header" style="display: flex; justify-content: space-between; align-items: center; padding: 100px 50px; ">
+<header class="u-clearfix u-header u-header" id="header" style="display: flex; justify-content: space-between; align-items: center; padding: 50px 50px; ">
     <div id="burgerLang" class="burgerLang" style="flex: 1;  padding: 0 0">
         <button id="burgerToggle" class="burger">☰</button>
         <div id="dropdown" class="burger-menu">
@@ -40,8 +31,8 @@
             <a class="ru" href="#">RU</a>
         </div>
     </div>
-    <div id="logo" style="flex: 1; padding: 0 0">
-        <img src="./логоСиний90*300.jpg" alt="Logo" class="u-logo-image u-logo-image-1">
+    <div id="logo" style="flex: 1; ">
+        <img src="./logo.png" alt="Logo" class="u-logo-image u-logo-image-1">
     </div>
 
     <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" role="navigation" aria-label="Menu navigation" style="flex: 1; display: flex; justify-content: flex-end; gap: 15px; padding: 0 50px">
@@ -56,7 +47,7 @@
                             <div class="lang">
                                 <button id="dropdownToggle" class="lang-btn">Language ▾</button>
                                 <div id="dropdownMenu" class="lang-menu">
-                                    <a class="cs" href="#">CS</a>
+                                    <a class="cs" href="#" >CS</a>
                                     <a class="en" href="#">EN</a>
                                     <a class="ru" href="#">RU</a>
                                 </div>
@@ -70,8 +61,8 @@
                             <div class="u-menu-close" tabindex="-1" aria-label="Close menu"></div>
                             <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2" role="menubar">
                                 <li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" >Home</a>
-                                </li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="file:///private/var/folders/kq/r3xt6tps4f5294jt0l57cjhw0000gn/T/Nicepage/chrome/index.html#">About</a>
-                                </li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="file:///private/var/folders/kq/r3xt6tps4f5294jt0l57cjhw0000gn/T/Nicepage/chrome/index.html#">Contact</a>
+                                </li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" >About</a>
+                                </li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" >Contact</a>
                                 </li></ul>
                         </div>
                     </div>
@@ -89,8 +80,7 @@
                         <div class="u-layout-col">
                             <div class="u-align-center u-container-align-center u-container-style u-layout-cell u-shape-rectangle u-size-60 u-layout-cell-1">
                                 <div class="u-container-layout u-container-layout-1">
-                                    <img class="custom-expanded u-image u-image-1" src="" data-image-width="1280" data-image-height="853">
-                                    <div class="u-image u-image-circle u-image-2" data-image-width="900" data-image-height="900"></div>
+                                    <img src="photo.jpg"  class=" u-image u-image-1" data-image-width="1280" data-image-height="853">
                                 </div>
                             </div>
                         </div>
@@ -118,7 +108,7 @@
                                     <div class="u-align-center u-border-2 u-border-palette-2-light-2 u-container-align-center u-container-style u-gradient u-group u-hover-feature u-shape-circle u-white u-group-2">
                                         <div class="u-container-layout u-valign-middle">
                                             <h5 class="u-hover-feature u-text u-text-default u-text-palette-2-base u-text-5">
-                                                <a id="footer-projects" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-2-base u-btn-2" href="file:///private/var/folders/kq/r3xt6tps4f5294jt0l57cjhw0000gn/T/Nicepage/chrome/index.html#">Projects</a>
+                                                <a id="footer-projects" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-2-base u-btn-2">Projects</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -159,7 +149,7 @@
                                 <strong style="line-height: 14px; font-size: 18px">2014-2018</strong>
                                 <br><span id="section2-teacher" style="font-style: italic; font-size: 18px;"></span>
                             </div>
-                            <div style="margin-top: 10px ">
+                            <div style="margin-top: 10px">
                                 <strong style="line-height: 14px; font-size: 18px">2018-2022</strong>
                                 <br><span id="section2-maternity" style="font-style: italic; font-size: 18px;"></span>
                             </div>
@@ -175,8 +165,8 @@
                     </div>
                     <div style="flex: 1; background: #b0cde8; padding: 20px; margin: 20px; border-radius: 50px">
                         <div>
-                            <h4 id="section2-contact" class="u-button-style u-text-palette-1-base u-btn-1"></h4>
-                            <p><strong>E-mail: </strong><a href="mailto:okevteeva@gmail.com"> okevteeva@gmail.com</a></p>
+                            <h4 id="section2-h1-contact" class="u-button-style u-text-palette-1-base u-btn-1"></h4>
+                            <p id="section2-p-contact"><strong style="font-size: 18px">E-mail: </strong><a href="mailto:okevteeva@gmail.com" style="font-size: 18px"> okevteeva@gmail.com</a></p>
                         </div>
                     </div>
 
@@ -185,12 +175,12 @@
         </div>
 
     </section>
+
 </main>
 
 <footer class="u-align-center u-clearfix u-container-align-center u-footer u-grey-80 u-footer" id="footer">
     <div class="u-clearfix u-sheet u-sheet-1">
-        <p id="footer-podpis" class="u-small-text u-text u-text-variant u-text-1"></p>
-        <p id="footer-podpis2" class="u-small-text u-text u-text-variant u-text-1"></p>
+        <p id="footer-podpis" class="u-text-1"></p>
     </div>
 </footer>
 

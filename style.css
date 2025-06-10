@@ -1,5 +1,12 @@
+html {
+    zoom: 120%;
+    /*scroll-behavior: smooth;*/
+}
 nav {
     display: block;
+}
+a {
+    font-size: small;
 }
 
 .lang {
@@ -94,8 +101,8 @@ nav {
 }
 
 .u-logo-image {
-    max-width: 150px;
-    height: 150px;
+    max-width: 80px;
+    height: 80px;
     margin-left: -300px;
 }
 
@@ -117,20 +124,18 @@ p {
     margin-top: 50px;
     margin-bottom: 60px;
 }
-.u-section-1 .u-container-layout-1 {
-    /*padding: 0;*/
-}
 
 .u-section-1 .u-image-1 {
     width: 295px;
     height: 336px;
     margin: 50px auto 0;
+    border-radius: 10px;
 }
 
 .u-section-1 .u-image-2 {
     width: 492px;
     height: 492px;
-    background-image: url("images/p.jpg");
+    /*background-image: url("images/p.jpg");*/
     background-position: 50% 50%;
     margin: -433px auto 0;
 }
@@ -149,7 +154,7 @@ p {
     margin: 0 3px;
 }
 
-.u-section-1 .u-text-2 {
+.u-text-2 {
     margin: 19px 1px 0 5px;
     font-weigth: 400;
     font-size: 24px;
@@ -158,6 +163,7 @@ p {
 .u-section-1 .u-text-3 {
     line-height: 2;
     margin: 56px 0 0;
+    font-size: 18px;
 }
 .u-section-1 .u-container-layout-3 {
     padding: 30px 10px 7px 30px;
@@ -244,19 +250,18 @@ p {
     padding: 0;
 }
 .u-section-1 {
-    min-height: 100vh;
     position: relative;
+    padding-bottom: 80px;
 }
 .u-section-2 {
     min-height: 700px;
     padding-bottom: 80px;
     scroll-margin-top: 10px; /* подгоняешь под высоту фиксированного header или просто отступ */
 }
-.u-section-2 .u-text-2 {
-    margin: 19px 1px 30px 5px;
-    font-weigth: 400;
-    font-size: 24px;
+.row {
+   flex-wrap: wrap;
 }
+
 
 @media (min-width: 991px) {
     .burger {
@@ -269,7 +274,6 @@ p {
         display: none;
     }
     .u-section-1 .u-sheet-1 {
-        /*min-height: 1719px;*/
     }
 
     .u-section-1 .u-layout-cell-1 {
@@ -295,16 +299,10 @@ p {
         margin-right: 0;
     }
 
-    /*.u-section-1 .u-text-2 {*/
-    /*    margin-left: 0;*/
-    /*    margin-right: 0;*/
-    /*}*/
 
     .u-section-1 .u-container-layout-3 {
         max-width: 600px;
         padding-bottom: 0;
-        /*padding-left: 10px;*/
-
     }
 
     .u-section-1 .u-group-2 {
@@ -315,7 +313,6 @@ p {
         margin-right: auto;
     }
     .u-section-2 .row {
-        /*display: flex;*/
         gap: 20px;
 
     }
@@ -391,11 +388,15 @@ p {
         display: none;
     }
     .u-section-1 .u-sheet-1 {
-        min-height: 1000px;
+        min-height: 800px;
     }
 
+    .u-section-1 .u-image-1 {
+        width: 240px;
+        height: 340px;
+    }
     .u-section-1 .u-image-2 {
-        width: 340px;
+        width: 250px;
         height: 340px;
     }
 
@@ -404,11 +405,15 @@ p {
         width: auto;
         /*margin-: ;*/
     }
+    .u-section-1 .u-text-3 {
+        font-size: small;
+        width: 250px;
+        /*margin: 10px;*/
+    }
     .u-section-1 .u-layout-cell-2 {
         margin-left: 15px;
         max-width: 330px;
     }
-
 
     .u-section-1 .u-group-2 {
         margin-top: 27px;
@@ -422,16 +427,17 @@ p {
     .u-section-2 {
         min-height: 1500px;
     }
-    /*.u-section-2 .u-layout-cell-3 .container{*/
-    /*    flex-direction: column;*/
-    /*}*/
+
     .u-section-2 .row {
-        /*display: flex;*/
+        width: 300px;
         gap: 20px;
         flex-wrap: wrap;
     }
     .burger {
         display: block;
+    }
+    .footer .u-text-1 {
+        font-size: 7px;
     }
 }
 

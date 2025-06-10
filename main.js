@@ -21,18 +21,17 @@ function updateContent() {
     document.getElementById('section2-paragraph2').innerText = i18next.t('section2.paragraph2');
     document.getElementById('section2-hobbies').innerText = i18next.t('section2.hobbies');
     document.getElementById('section2-paragraph3').innerText = i18next.t('section2.paragraph3');
-    document.getElementById('section2-contact').innerText = i18next.t('section2.contacts');
+    document.getElementById('section2-h1-contact').innerText = i18next.t('section2.contacts');
 
     document.getElementById('footer-resume').innerText = i18next.t('footer.resume');
     document.getElementById('footer-projects').innerText = i18next.t('footer.projects');
     document.getElementById('footer-contacts').innerText = i18next.t('footer.contacts');
     document.getElementById('footer-podpis').innerText = i18next.t('footer.podpis');
-    document.getElementById('footer-podpis2').innerHTML = i18next.t('footer.podpis2');
 }
 
 
 i18next.init({
-    lng: 'en', // язык по умолчанию
+    lng: 'cs', // язык по умолчанию
     debug: true,
     resources: {
         en: {
@@ -70,7 +69,6 @@ i18next.init({
                     "projects": "Projects",
                     "contacts": "Contacts",
                     "podpis": " © 2025 Oksana Arefeva. All rights reserved.",
-                    "podpis2": "Created using HTML, CSS, JavaScript and <a href='https://nicepage.com' target='_blank'>Nicepage</a>."
                 }
             }
         },
@@ -112,8 +110,7 @@ i18next.init({
                     "resume": "Životopis",
                     "projects": "Projects",
                     "contacts": "Contacts",
-                    "podpis": "© 2025 Oksana Arefeva. Všechna práva vyhrazena.",
-                    "podpis2": "Vytvořeno pomocí technologií HTML, CSS, JavaScript, a <a href='https://nicepage.com' target='_blank'>Nicepage</a>."
+                    "podpis": "© 2025 Oksana Arefeva. Všechna práva vyhrazena."
                 }
             }
         },
@@ -154,8 +151,7 @@ i18next.init({
                     "resume": "Резюме",
                     "projects": "Проекты",
                     "contacts": "Контакты",
-                    "podpis": "© 2025 Оксана Арефьева. Все права защищены.",
-                    "podpis2": "Создано с применением технологий HTML, CSS, JavaScript и <a href='https://nicepage.com' target='_blank'>Nicepage</a>."
+                    "podpis": "© 2025 Оксана Арефьева. Все права защищены."
                 }
             }
         },

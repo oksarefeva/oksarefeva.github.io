@@ -44335,7 +44335,7 @@ p.u-small-text
 }
 p:not(.u-text-variant)
 {
-    font-size: 1.125rem;
+    font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 1.6;
@@ -44472,7 +44472,7 @@ ol
 @media (max-width: 767px) {
     p:not(.u-text-variant)
     {
-        font-size: 1rem;
+        /*font-size: 1rem;*/
     }
 }
 @media (max-width: 767px) {
