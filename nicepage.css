@@ -3041,17 +3041,17 @@ a {
     .u-progress-text-hidden-md .u-form-progress-inner {
         margin-bottom: 0;
     }
-    .u-progress-text-hidden-md .u-form-progress-text {
-        display: none !important;
-    }
+    /*.u-progress-text-hidden-md .u-form-progress-text {*/
+    /*    display: none !important;*/
+    /*}*/
 }
 @media (min-width: 576px) and (max-width: 767px) {
     .u-progress-text-hidden-sm .u-form-progress-inner {
         margin-bottom: 0;
     }
-    .u-progress-text-hidden-sm .u-form-progress-text {
-        display: none !important;
-    }
+    /*.u-progress-text-hidden-sm .u-form-progress-text {*/
+    /*    display: none !important;*/
+    /*}*/
 }
 @media (max-width: 575px) {
     .u-progress-text-hidden-xs .u-form-progress-inner {
@@ -3091,9 +3091,9 @@ footer > *,
 .u-section-row > * {
     position: relative;
 }
-base {
-    display: none;
-}
+/*base {*/
+/*    display: none;*/
+/*}*/
 a {
     color: #259bca;
     text-decoration: none;
@@ -3106,11 +3106,11 @@ a:focus {
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
 }
-.u-clearfix:after,
-.u-clearfix:before {
-    content: '';
-    display: table;
-}
+/*.u-clearfix:after,*/
+/*.u-clearfix:before {*/
+/*    content: '';*/
+/*    display: table;*/
+/*}*/
 .u-clearfix:after {
     clear: both;
 }
@@ -7612,11 +7612,11 @@ ul.u-text li:last-child {
         display: none !important;
     }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-    .u-hidden-md {
-        display: none !important;
-    }
-}
+/*@media (min-width: 768px) and (max-width: 991px) {*/
+/*    .u-hidden-md {*/
+/*        display: none !important;*/
+/*    }*/
+/*}*/
 @media (min-width: 576px) and (max-width: 767px) {
     .u-hidden-sm {
         display: none !important;
@@ -7728,30 +7728,30 @@ ul.u-text li:last-child {
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .u-text-default-md {
-        display: table;
-        align-self: flex-start;
-        width: -webkit-fit-content;
-        width: fit-content;
-        width: -moz-fit-content;
-    }
-    .u-text-default-md:empty {
-        display: block;
-        width: 15px;
-    }
+    /*.u-text-default-md {*/
+    /*    display: table;*/
+    /*    align-self: flex-start;*/
+    /*    width: -webkit-fit-content;*/
+    /*    width: fit-content;*/
+    /*    width: -moz-fit-content;*/
+    /*}*/
+    /*.u-text-default-md:empty {*/
+    /*    display: block;*/
+    /*    width: 15px;*/
+    /*}*/
 }
 @media (min-width: 576px) and (max-width: 767px) {
-    .u-text-default-sm {
-        display: table;
-        align-self: flex-start;
-        width: -webkit-fit-content;
-        width: fit-content;
-        width: -moz-fit-content;
-    }
-    .u-text-default-sm:empty {
-        display: block;
-        width: 15px;
-    }
+    /*.u-text-default-sm {*/
+    /*    display: table;*/
+    /*    align-self: flex-start;*/
+    /*    width: -webkit-fit-content;*/
+    /*    width: fit-content;*/
+    /*    width: -moz-fit-content;*/
+    /*}*/
+    /*.u-text-default-sm:empty {*/
+    /*    display: block;*/
+    /*    width: 15px;*/
+    /*}*/
 }
 @media (max-width: 575px) {
     .u-text-default-xs {
@@ -10766,11 +10766,11 @@ img.u-image,
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .u-layout-row > .u-size-60-md {
-        flex: 0 0 100%;
-        max-width: 100%;
-        min-width: 100%;
-    }
+    /*.u-layout-row > .u-size-60-md {*/
+    /*    flex: 0 0 100%;*/
+    /*    max-width: 100%;*/
+    /*    min-width: 100%;*/
+    /*}*/
     .u-layout-col > .u-size-60-md {
         flex: 60 0 auto;
     }
@@ -13172,7 +13172,7 @@ img.u-image,
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .u-layout-col > * {
-        flex-basis: auto !important;
+        /*flex-basis: auto !important;*/
     }
 }
 .u-layout-col,
@@ -18166,10 +18166,10 @@ div.u-video,
     .u-menu:not([data-responsive-from]) .u-nav-container-collapse {
         display: flex;
     }
-    .u-menu[data-responsive-from="MD"] .u-nav-container,
-    .u-menu:not([data-responsive-from]) .u-nav-container {
-        display: none;
-    }
+    /*.u-menu[data-responsive-from="MD"] .u-nav-container,*/
+    /*.u-menu:not([data-responsive-from]) .u-nav-container {*/
+    /*    display: none;*/
+    /*}*/
 }
 @media (min-width: 576px) and (max-width: 767px) {
     .u-menu[data-responsive-from="SM"] .menu-collapse {
@@ -44743,9 +44743,6 @@ blockquote
     height: 100%;
 }
 
-.u-header .u-menu-1 {
-    margin: -32px 0 22px auto;
-}
 
 .u-header .u-nav-1 {
     font-size: 1rem;

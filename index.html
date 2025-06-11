@@ -22,20 +22,17 @@
 
 
 <main>
-<header class="u-clearfix u-header u-header" id="header" style="display: flex; justify-content: space-between; align-items: center; padding: 50px 50px; ">
-    <div id="burgerLang" class="burgerLang" style="flex: 1;  padding: 0 0">
-        <button id="burgerToggle" class="burger">☰</button>
-        <div id="dropdown" class="burger-menu">
-            <a class="cs" href="#">CS</a>
-            <a class="en" href="#">EN</a>
-            <a class="ru" href="#">RU</a>
+<header class="u-clearfix u-header u-header" id="header">
+        <div id="burgerLang" class="burgerLang" style="flex: 1;">
+            <button id="burgerToggle" class="burger">☰</button>
+            <div id="dropdown" class="burger-menu">
+                <a class="cs" href="#">CS</a>
+                <a class="en" href="#">EN</a>
+                <a class="ru" href="#">RU</a>
+            </div>
         </div>
-    </div>
-    <div id="logo" style="flex: 1; ">
-        <img src="./logo.png" alt="Logo" class="u-logo-image u-logo-image-1">
-    </div>
 
-    <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" role="navigation" aria-label="Menu navigation" style="flex: 1; display: flex; justify-content: flex-end; gap: 15px; padding: 0 50px">
+    <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" role="navigation" aria-label="Menu navigation" >
         <div class="u-custom-menu u-nav-container" >
 
                     <ul class="u-nav u-unstyled u-nav-1" role="menubar">
@@ -54,7 +51,7 @@
                             </div>
                         </li>
                     </ul>
-                </div>
+        </div>
                 <div class="u-custom-menu u-nav-container-collapse" id="05b8" role="region" aria-label="Menu panel">
                     <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
                         <div class="u-inner-container-layout u-sidenav-overflow">
@@ -69,6 +66,9 @@
                     <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
                 </div>
     </nav>
+    <div id="logo">
+        <img src="./logo.png" alt="Logo" class="u-logo-image">
+    </div>
 </div>
 </header>
 
@@ -80,7 +80,7 @@
                         <div class="u-layout-col">
                             <div class="u-align-center u-container-align-center u-container-style u-layout-cell u-shape-rectangle u-size-60 u-layout-cell-1">
                                 <div class="u-container-layout u-container-layout-1">
-                                    <img src="photo.jpg"  class=" u-image u-image-1" data-image-width="1280" data-image-height="853">
+                                    <img src="photo.jpg" class="u-image u-image-1" data-image-width="1280" data-image-height="853">
                                 </div>
                             </div>
                         </div>
@@ -132,11 +132,11 @@
         <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
             <div class="u-gutter-0 u-layout">
                 <header class="u-clearfix u-header u-header u-text-2" id="headerAbout">
-                    <div id="section2-aboutMe" class=" u-text-2"  style="font-weight: bold;">
+                    <div id="section2-aboutMe" class="section-2" style="font-weight: bold;">
                     </div>
                 </header>
                 <div class="u-section-2 row">
-                    <div style="flex: 1; background: #ffd6d6; padding: 20px;  margin: 20px; border-radius: 50px" >
+                    <div class="u-section-2 row-1">
                         <div >
                             <h4 id="section2-education" class="u-button-link u-button-style u-text-palette-2-base u-btn-2"></h4>
                             <div>
@@ -163,11 +163,9 @@
                         </div>
 
                     </div>
-                    <div style="flex: 1; background: #b0cde8; padding: 20px; margin: 20px; border-radius: 50px">
-                        <div>
+                    <div class="u-section-2 row-2">
                             <h4 id="section2-h1-contact" class="u-button-style u-text-palette-1-base u-btn-1"></h4>
                             <p id="section2-p-contact"><strong style="font-size: 18px">E-mail: </strong><a href="mailto:okevteeva@gmail.com" style="font-size: 18px"> okevteeva@gmail.com</a></p>
-                        </div>
                     </div>
 
                 </div>
