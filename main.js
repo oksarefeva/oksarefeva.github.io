@@ -52,7 +52,9 @@ i18next.init({
                     "aboutMe": "About Me",
                     "presentTime": "2023-Present",
                     "education": "Education",
-                    "paragraph1": "Bachelor’s degree, Togliatti State University. Major: Mathematics, specialization: „Teaching“ ",
+                    "paragraph1": "Higher Education (Bachelor's Degree). " +
+                        "Field of Study: „Pedagogical Education“. " +
+                        "Specialization: „Mathematics“ ",
                     "experience": "Experience",
                     "teacher": "Mathematics teacher at a secondary school",
                     "maternity": "Maternity leave",
@@ -92,8 +94,9 @@ i18next.init({
                     "presentTime": "2023-dosud",
                     "education": "Education",
                     "Teacher": "Vyučování",
-                    "paragraph1": "Bakalářské studium, Togliattská státní univerzita." +
-                                    " Obor: Matematika, zaměření: „Vyučování“ ",
+                    "paragraph1": "Vysokoškolské vzdělání (bakalář). " +
+                                 "Studijní obor: „Učitelské vzdělání“. " +
+                                 "Specializace: „Matematika“ ",
                     "experience": "Zkušenosti",
                     "teacher": "Učitel matematiky na základní škole",
                     "maternity": "Mateřská dovolená",
@@ -133,8 +136,9 @@ i18next.init({
                     "aboutMe": "Oбо мне",
                     "presentTime": "2023 - настоящее время",
                     "education": "Образование",
-                    "paragraph1": "Бакалавриат, Тольяттинский государственный университет. " +
-                                "Специальность: Математика, профиль - Преподавание",
+                    "paragraph1": "Высшее образование (бакалавр). " +
+                                  "Направление: „Педагогическое образование“. " +
+                                  "Профиль: „Математика“ ",
                     "experience": "Опыт",
                     "teacher": "Учитель математики (средняя школа)",
                     "maternity": "Декретный отпуск ",
