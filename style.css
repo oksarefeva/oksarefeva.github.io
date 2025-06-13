@@ -13,7 +13,8 @@ a {
     display: flex;
     justify-content: end;
     align-items: center;
-    padding: 50px 50px;
+    /*padding-bottom: 20px;*/
+    padding: 20px 50px;
     margin-top: 30px;
 }
 .lang {
@@ -166,7 +167,7 @@ p {
 
 .u-section-1 .u-text-3 {
     line-height: 2;
-    margin: 56px 20px 0;
+    margin: 26px 20px 0;
     font-size: 18px;
 }
 
@@ -255,14 +256,16 @@ p {
 }
 .u-section-1 {
     position: relative;
-    padding-bottom: 80px;
 }
 .u-section-2 {
-    padding-bottom: 80px;
+    padding-bottom: 20px;
     scroll-margin-top: 10px; /* подгоняешь под высоту фиксированного header или просто отступ */
 }
 .row {
     flex-wrap: wrap;
+}
+.u-footer .u-sheet-1 {
+    height: 40% !important;
 }
 
 @media (min-width: 1024px){
@@ -337,8 +340,6 @@ p {
     .u-section-1 .u-image-1 {
         margin: 30px;
         padding: 30px;
-        /*width: 80%;*/
-        /*height: 100%;*/
     }
 
     .u-section-1 .u-text-3 {
@@ -419,7 +420,6 @@ p {
         .u-section-1 .u-image-1 {
             width: 70%;
             height: 70%;
-            margin: 30px;
         }
 
         .u-section-1 .u-image-2 {
