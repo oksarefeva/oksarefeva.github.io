@@ -93,6 +93,9 @@ a {
     z-index: 1;
     margin-top: 6px;
 }
+.burger-menu.show {
+    display: block;
+}
 .burger-menu a {
     color: black;
     padding: 5px 10px;

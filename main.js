@@ -163,36 +163,28 @@ i18next.init({
 }).then(updateContent());
 
 
-    const toggleButton = document.getElementById('dropdownToggle');
-    const menu = document.getElementById('dropdownMenu');
-    const burgerLang = document.getElementById('burgerLang');
-    const toggle = document.getElementById('burgerToggle');
+    const menuToggleButton = document.getElementById('dropdownToggle');
+    const dropdownMenu = document.getElementById('dropdownMenu');
+    const burgerToggleButton = document.getElementById('burgerToggle');
+    const dropdownBurger = document.getElementById('dropdown');
 
-
-    toggle.addEventListener('click', () => {
-        burgerLang.classList.toggle("show");
-    })
-    document.querySelector('.burger-menu').addEventListener('click', e => {
-        i18next.changeLanguage(e.target.className).then(updateContent);
-    })
-
-
-    toggleButton.addEventListener('click', () => {
-        menu.classList.toggle("show");
+    menuToggleButton.addEventListener('click', () => {
+        dropdownMenu.classList.toggle("show");
+        dropdownMenu.addEventListener('click', e => {
+            i18next.changeLanguage(e.target.className).then(updateContent);
+            e.target.parentElement.classList.remove("show");
+        })
     });
-    document.querySelector('.lang-menu').addEventListener('click', e => {
-        i18next.changeLanguage(e.target.className).then(updateContent);
-    })
 
+    burgerToggleButton.addEventListener('click', () => {
+        dropdownBurger.classList.toggle("show");
+        dropdownBurger.addEventListener('click', e => {
+            i18next.changeLanguage(e.target.className).then(updateContent);
+            e.target.parentElement.classList.remove("show");
+        })
 
-    document.addEventListener('click', e => {
-        if (!e.target.closest(".lang")) {
-            menu.classList.remove("show");
-        }
-        if (!e.target.closest('.burgerLang')) {
-            burgerLang.classList.remove('show');
-        }
-    })
+    });
+
 
 
 
