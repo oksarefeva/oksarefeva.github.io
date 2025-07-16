@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/i18next@23.4.8/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@2.3.1/i18nextHttpBackend.min.js"></script>
 
     <script src="https://unpkg.com/i18next@25.3.2/i18next.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" defer></script>
@@ -24,23 +26,22 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a id="header-Home" class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" data-i18n="home" aria-current="page" href="#"></a>
                     </li>
                     <li class="nav-item">
-                        <a id="header-About" class="nav-link" href="#aboutMe">About</a>
+                        <a class="nav-link" data-i18n="about" aria-current="page" href="#aboutMe"></a>
                     </li>
                     <li class="nav-item">
-                        <a id="header-Contact" class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" data-i18n="contacts" aria-current="page" href="#contact"></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a style="background-color: #adccea; border-radius: 6px" class="nav-link btn-primary dropdown-toggle"
-                           href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Language
+                           data-i18n="language" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         </a>
                         <ul id="language-menu" class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">CS</a></li>
-                            <li><a class="dropdown-item" href="#">EN</a></li>
-                            <li><a class="dropdown-item" href="#">RU</a></li>
+                            <li><a class="dropdown-item" data-lang="cs" href="#">CS</a></li>
+                            <li><a class="dropdown-item" data-lang="en" href="#">EN</a></li>
+                            <li><a class="dropdown-item" data-lang="ru" href="#">RU</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -55,51 +56,39 @@
 <div class="container">
     <div class="row row-cols-1 row-cols-md-2 ms-2 ms-md-0 me-2 me-md-0 mt-0 gy-4">
         <div class="col d-flex justify-content-start justify-content-md-center">
-            <img src="photo.jpg" class="img-fluid rounded-1 w-80 w-md-100" alt="Photo">
+            <img src="photo.jpg" class="img-fluid rounded-4 w-80 w-md-100" alt="Photo">
         </div>
         <div class="col d-flex flex-column">
-            <p class="display-6 fw-bold">Hello!</p>
-            <p class="fs-4">A Bit About Me</p>
-            <p class="fs-6">
-                I am an aspiring front end developer currently focusing on building a solid foundation in web development.
-                Most of my time is dedicated to learning by doing — practicing code, experimenting with Angular and TypeScript,
-                and gradually understanding how modern web applications work.
-            </p>
+            <p class="display-6 fw-bold" data-i18n="hello"></p>
+            <p class="fs-4" data-i18n="heading"></p>
+            <p class="fs-6" data-i18n="paragraph"></p>
             <div class="mt-auto d-flex gap-1">
-                <button type="button" class="btn btn-bounce-circle btn-soft-info">Resume</button>
-                <button type="button" class="btn btn-bounce-circle btn-soft-danger">Projects</button>
-                <button type="button" class="btn btn-bounce-circle btn-soft-warning">Contacts</button>
+                <button type="button" class="btn btn-bounce-circle btn-soft-info" data-i18n="resume"></button>
+                <button type="button" class="btn btn-bounce-circle btn-soft-danger" data-i18n="projects"></button>
+                <button type="button" class="btn btn-bounce-circle btn-soft-warning" data-i18n="contacts"></button>
             </div>
         </div>
     </div>
 
-    <div class="row row-cols-1 ms-2 ms-md-0 me-2 me-md-0 mt-5 gy-4">
+    <div id="aboutMe" class="row row-cols-1 ms-2 ms-md-0 me-2 me-md-0 mt-5 gy-4">
         <div class="col d-flex justify-content-md-center">
-            <p class="display-6 fw-bold">About Me</p>
+            <p class="display-6 fw-bold" data-i18n="aboutMe"></p>
         </div>
 
         <div class="col rounded-5 pt-3" style="background-color: #ffd6d6;">
-            <p class="fs-4 2">Experience</p>
-
-            <p class="fs-6 mb-0"><span class="fw-bold">👩‍💻 2024 – now: </span>Programming</p>
-            <p class="fs-6 mb-0"><span class="fw-bold">👶 2018 – 2024: </span>Maternity leave</p>
-            <p class="fs-6"><span class="fw-bold">🏫 2014 – 2018: </span>Mathematics teacher at a secondary school.</p>
-
-            <p class="fs-4 2">Education</p>
-
-            <p class="fs-6 mb-0"><span class="fw-bold">🎓 2010 – 2014: </span>Higher Education (Bachelor's Degree)</p>
-            <p class="fs-6">Field of Study: "Pedagogical Education". Specialization: "Mathematics"</p>
-
-            <p class="fs-6">My journey began with JavaScript, and later I moved on to TypeScript.
-                Previously, I was acquainted with Python, but my main focus now is Angular.
-                Currently, I am developing a frontend application for car exchange that combines a user-friendly interface with dynamic client-side logic.</p>
-
-            <p class="fs-4 mb-2">Hobbies</p>
-            <p class="fs-6">In my free time, I enjoy swimming 🏊‍♀️ and taking care of plants 🪴 :)</p>
+            <p class="fs-4 2" data-i18n="experience"></p>
+            <p class="fs-6 mb-0" data-i18n="programming"></p>
+            <p class="fs-6 mb-0" data-i18n="maternity"></p>
+            <p class="fs-6" data-i18n="teacher"></p>
+            <p class="fs-4" data-i18n="education"></p>
+            <p class="fs-6 mb-3" data-i18n="paragraph1"></p>
+            <p class="fs-6" data-i18n="paragraph2"></p>
+            <p class="fs-4 mb-2" data-i18n="hobbies"></p>
+            <p class="fs-6" data-i18n="paragraph3"></p>
         </div>
 
-        <div class="col rounded-5 pt-3" style="background-color: #b0cde8;">
-            <p class="fs-4 mb-2">Contacts</p>
+        <div id="contact" class="col rounded-5 pt-3" style="background-color: #b0cde8;">
+            <p class="fs-4 mb-2" data-i18n="contacts"></p>
             <p class="fs-6"><span class="fw-bold">✉️ E-mail: </span><a href="mailto:okevteeva@gmail.com">okevteeva@gmail.com</a></p>
         </div>
     </div>
