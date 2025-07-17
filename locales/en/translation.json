@@ -1,0 +1,22 @@
+{
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "language": "Language",
+    "hello": "Hello!",
+    "heading": "A Bit About Me",
+    "paragraph": "I am an aspiring front end developer currently focusing on building a solid foundation in web development. Most of my time is dedicated to learning by doing — practicing code, experimenting with Angular and TypeScript, and gradually understanding how modern web applications work.",
+    "aboutMe": "About Me",
+    "education": "Education",
+    "paragraph1": "\uD83C\uDF93 <strong>2010 – 2014</strong>: Higher Education (Bachelor's Degree). Field of Study: „Pedagogical Education“. Specialization: „Mathematics“. ",
+    "experience": "Experience",
+    "teacher": "\uD83C\uDFEB <strong>2014 - 2018</strong>: Mathematics teacher at a secondary school",
+    "maternity": "\uD83D\uDC76 <strong>2018 – 2024</strong>: Maternity leave",
+    "programming": "\uD83D\uDC69\u200D\uD83D\uDCBB <strong>2024 – now</strong>: Programming",
+    "paragraph2": "My journey began with JavaScript, and later I moved on to TypeScript. Previously, I was acquainted with Python, but my main focus now is Angular. Currently, I am developing a frontend application for car exchange that combines a user-friendly interface with dynamic client-side logic.",
+    "hobbies": "Hobbies",
+    "paragraph3": "In my free time, I enjoy swimming and taking care of plants\uD83E\uDEB4:)",
+    "contacts": "Contacts",
+    "resume": "Resume",
+    "projects": "Projects"
+}

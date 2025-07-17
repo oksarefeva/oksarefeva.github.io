@@ -1,0 +1,23 @@
+{
+    "home": "Domů",
+    "about": "O mně",
+    "contact": "Contact",
+    "language": "Jazyk webu",
+    "hello": "Ahoj!",
+    "heading": "Něco O Mně",
+    "paragraph": "Jsem ctižádostivý front-end developer, který se v současné době zaměřuje na budování pevných základů ve vývoji webových aplikací. Většinu času se věnuji učení, pomocí dělání-procvičování kódu, experimentování s Angular a TypeScript a postupné pochopení toho, jak fungují moderní webové aplikace.",
+    "aboutMe": "O mně",
+    "education": "Education",
+    "Teacher": "Vyučování",
+    "paragraph1": "\uD83C\uDF93 <strong>2010 – 2014</strong>: Vysokoškolské vzdělání (bakalář). Studijní obor: „Učitelské vzdělání“. Specializace: „Matematika“. ",
+    "experience": "Zkušenosti",
+    "teacher": "\uD83C\uDFEB <strong>2014 - 2018</strong>: Učitel matematiky na základní škole",
+    "maternity": "\uD83D\uDC76 <strong>2018 – 2024</strong>: Mateřská dovolená",
+    "programming": "\uD83D\uDC69\u200D\uD83D\uDCBB <strong>2024 – nyní</strong>: Programování",
+    "paragraph2": "Má cesta začala s JavaScriptem a poté jsem přešla na TypeScript. Dříve jsem se seznámila s Pythonem, ale nyní se zaměřuji především na Angular. V současnosti vyvíjím frontendovou aplikaci pro výměnu automobilů, která spojuje uživatelsky přívětivé rozhraní s dynamickou logikou na straně klienta.",
+    "hobbies": "Koníčky",
+    "paragraph3": "Ve volném čase ráda plavu a pečuji o rostliny\uD83E\uDEB4:)",
+    "contacts": "Contacts",
+    "resume": "Životopis",
+    "projects": "Projects"
+}
