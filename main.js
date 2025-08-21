@@ -2,13 +2,13 @@ i18next
     .use(i18nextHttpBackend)
     .init({
         lng: 'en',
-        debug: true,
         backend: {
             loadPath: '/locales/{{lng}}/translation.json'
         }
-    }).then(() => {
-    updateContent();
-});
+    })
+    .then(() => {
+        updateContent();
+    });
 
 
 function updateContent() {
