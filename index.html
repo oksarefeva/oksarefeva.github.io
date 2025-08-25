@@ -62,9 +62,27 @@
             <p class="fs-4" data-i18n="heading"></p>
             <p class="fs-6" data-i18n="paragraph"></p>
             <div class="mt-auto d-flex gap-1 justify-content-center">
-                <button type="button" class="btn btn-bounce-circle btn-soft-info" data-i18n="resume"></button>
-                <button type="button" class="btn btn-bounce-circle btn-soft-danger" data-i18n="projects"></button>
-                <button type="button" class="btn btn-bounce-circle btn-soft-warning" data-i18n="contacts"></button>
+                    <a class="d-flex btn btn-bounce-circle btn-soft-info align-items-center justify-content-center"
+                       href="https://drive.google.com/file/d/1kU24niOeHpnO9MnQH3ubHqokm4HqsQ2_/view?usp=sharing"
+                       data-i18n="resume"></a>
+                    <button type="button" class="btn btn-bounce-circle btn-soft-danger" data-bs-toggle="modal" data-bs-target="#confirmModal" data-i18n="projects"></button>
+                    <div class="modal fade" id="confirmModal" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 data-i18n="modal"></h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body" data-i18n="modal_body">
+                                </div>
+                                <div class="d-flex m-1 justify-content-end">
+                                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal" data-i18n="cancel"></button>
+                                    <a href="mailto:okevteeva@gmail.com" class="ms-1 btn btn-danger" data-i18n="request"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class=" d-flex btn btn-bounce-circle btn-soft-warning align-items-center justify-content-center" href="#contact" data-i18n="contacts"></a>
             </div>
         </div>
     </div>

@@ -18,5 +18,9 @@
     "paragraph3": "In my free time, I enjoy swimming and taking care of plants\uD83E\uDEB4:)",
     "contacts": "Contacts",
     "resume": "Resume",
-    "projects": "Projects"
+    "projects": "Projects",
+    "modal": "Request for access to the project",
+    "modal_body": "We are saving our planet’s resources, so the project is not always running and is launched upon request. Please send us a request and we will start it.",
+    "cancel": "Cancel",
+    "request": "Submit Request"
 }

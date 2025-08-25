@@ -19,5 +19,9 @@
     "paragraph3": "Ve volném čase ráda plavu a pečuji o rostliny\uD83E\uDEB4:)",
     "contacts": "Contacts",
     "resume": "Životopis",
-    "projects": "Projects"
+    "projects": "Projects",
+    "modal": "Žádost o přístup k projektu",
+    "modal_body": "Šetříme zdroje naší planety, proto projekt neběží neustále a spouští se na vyžádání. Pošlete nám prosím žádost a my jej spustíme.",
+    "cancel": "Zrušit",
+    "request": "Odeslat žádost"
 }
