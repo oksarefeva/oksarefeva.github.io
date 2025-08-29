@@ -19,8 +19,8 @@
     "contacts": "Contacts",
     "resume": "Resume",
     "projects": "Projects",
-    "modal": "Request for access to the project",
-    "modal_body": "We are saving our planet’s resources, so the project is not always running and is launched upon request. Please send us a request and we will start it.",
+    "modal": "Project access request",
+    "modal_body": "We are saving our planet’s resources, so the project is not always running and is launched upon request. Please send us a request and we will start it \uD83E\uDD17",
     "cancel": "Cancel",
-    "request": "Submit Request"
+    "request": "Send"
 }

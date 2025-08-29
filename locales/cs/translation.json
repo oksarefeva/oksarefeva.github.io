@@ -20,8 +20,8 @@
     "contacts": "Contacts",
     "resume": "Životopis",
     "projects": "Projects",
-    "modal": "Žádost o přístup k projektu",
-    "modal_body": "Šetříme zdroje naší planety, proto projekt neběží neustále a spouští se na vyžádání. Pošlete nám prosím žádost a my jej spustíme.",
+    "modal": "Žádost o přístup",
+    "modal_body": "Šetříme zdroje naší planety, proto projekt neběží neustále a spouští se na vyžádání. Pošlete nám prosím žádost a my jej spustíme \uD83E\uDD17" ,
     "cancel": "Zrušit",
-    "request": "Odeslat žádost"
+    "request": "Odeslat"
 }
